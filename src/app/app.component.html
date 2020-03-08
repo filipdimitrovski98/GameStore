@@ -1,0 +1,20 @@
+<div class="top-menu" >
+
+    <img class="logo"
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Blizzard_Entertainment_Logo.svg/1280px-Blizzard_Entertainment_Logo.svg.png">
+
+</div>
+
+
+
+<div class="courses" >
+
+   <course-component *ngFor = "let kurs of total;"
+
+
+
+   (suzi)="onClickViewed($event)" [crs]="kurs" ></course-component>
+
+</div>
+
+

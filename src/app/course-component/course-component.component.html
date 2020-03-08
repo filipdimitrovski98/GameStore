@@ -1,0 +1,29 @@
+<div class="course-card" *ngIf="crs" [ngClass]="klasi()">
+
+  <ng-template #noImg>
+    
+    <p>Nema slika</p>
+  
+  </ng-template>
+  
+
+  <div class="course-title">
+      {{' '+crs.description}}
+  </div>
+  <img width="300" alt="Angular Logo" *ngIf="onImg(); else noImg"
+       [src]="crs.iconUrl">
+
+  <div class="course-description">
+      {{crs.longDescription}}
+  </div>
+
+  <div class="course-category" >
+      {{crs.category}}
+  </div >
+<div class="course-price" >{{crs.price}}</div>
+
+<button   ><a target="_blank" [href]="crs.trailer"
+  >Trailer</a></button>
+<button   (click)="onClickView()">Download</button>
+
+</div>

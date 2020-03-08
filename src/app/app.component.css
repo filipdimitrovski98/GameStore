@@ -1,0 +1,28 @@
+
+.top-menu {
+    background-color: #e7e7e7;
+    padding: 2px 15px;
+    
+    top: 0%;
+}
+
+.logo {
+  max-height: 55px;
+}
+
+
+.courses {
+    max-width: 600px;
+    margin: 50px auto;
+    
+    
+}
+
+.body {
+background-image: url('https://anith.com/wp-content/uploads/2018/11/1541717579_More-mobile-games-are-on-the-horizon-for-Blizzard-Entertainment.jpg');
+background-attachment:fixed;
+}
+
+
+
+
